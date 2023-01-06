@@ -15,7 +15,7 @@
 <img src="https://user-images.githubusercontent.com/57218700/210920554-40a2e4a9-1fb9-48f5-bd7f-28916d43eee9.png?raw=True" width="40%"> <br>
 </div>
 
-## Experiments
+## Anomaly Detection Using LSTMs
 - We use the LSTM architecture with 64 nodes following ReLU activation function and a neural network with 1-layer (Dense layer) with a node.
 - The thresholds that determine the anomaly points are calculated by 0.99 quantile value of the train mean squared error (MSE). In the test MSE, points larger than thresholds were determined as anomaly points.
 - The histogram for the test MSE and the threshold value obtained by the train MSE for CVX, INTC,MRK and XOM are depicted below.
@@ -34,4 +34,13 @@
 <img src="https://user-images.githubusercontent.com/57218700/210924207-786f1b5c-b69a-4484-8803-a902bdb15312.png?raw=True" width="45%"> <br>
 </div>
 
+## MST representation
+- We generate MSTs using the daily return value of the closing price for the last 272 days. We divide 272 days into four sections and mark the number of anomaly points in each section in color on each node of MSTs. The closer to the orange, the more the number is.
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/57218700/210924747-40f62649-b013-4aee-8822-1f2b8e1019ff.png?raw=True" width="45%">  
+<img src="https://user-images.githubusercontent.com/57218700/210924751-4c40f390-5dcf-4f40-8926-3bfec20f3ccc.png?raw=True" width="45%"> <br>
+<img src="https://user-images.githubusercontent.com/57218700/210924752-6dbdfe5a-5617-4f47-8cc6-38286b0d6b04.png?raw=True" width="45%">
+<img src="https://user-images.githubusercontent.com/57218700/210924753-6b84b87f-d116-4981-8e08-03c76752c7ff.png?raw=True" width="45%"> <br>
+</div>
 
