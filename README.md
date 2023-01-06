@@ -28,10 +28,10 @@
 
 - Anomaly points and closing prices for CVX, INTC, MRK and XOM are as follows:
 <div align="center">
-<img src="https://user-images.githubusercontent.com/57218700/210923408-de0ae600-dcd8-47bc-a264-df84cd9fd457.png?raw=True" width="50%">  
-<img src="https://user-images.githubusercontent.com/57218700/210923413-3d84e50d-e34d-4e96-afeb-764c431e11b1.png?raw=True" width="50%"> <br>
-<img src="https://user-images.githubusercontent.com/57218700/210923416-982cf65b-244b-4a0c-a2b6-4cbd643ccebc.png?raw=True" width="50%">
-<img src="https://user-images.githubusercontent.com/57218700/210924207-786f1b5c-b69a-4484-8803-a902bdb15312.png?raw=True" width="50%"> <br>
+<img src="https://user-images.githubusercontent.com/57218700/210923408-de0ae600-dcd8-47bc-a264-df84cd9fd457.png?raw=True" width="45%">  
+<img src="https://user-images.githubusercontent.com/57218700/210923413-3d84e50d-e34d-4e96-afeb-764c431e11b1.png?raw=True" width="45%"> <br>
+<img src="https://user-images.githubusercontent.com/57218700/210923416-982cf65b-244b-4a0c-a2b6-4cbd643ccebc.png?raw=True" width="45%">
+<img src="https://user-images.githubusercontent.com/57218700/210924207-786f1b5c-b69a-4484-8803-a902bdb15312.png?raw=True" width="45%"> <br>
 </div>
 
 
