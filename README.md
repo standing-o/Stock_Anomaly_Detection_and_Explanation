@@ -18,8 +18,14 @@
 ## Experiments
 - We use the LSTM architecture with 64 nodes following ReLU activation function and a neural network with 1-layer (Dense layer) with a node.
 - The thresholds that determine the anomaly points are calculated by 0.99 quantile value of the train mean squared error (MSE). In the test MSE, points larger than thresholds were determined as anomaly points.
-- Anomaly points and closing prices for CVX, INTC, MRK, PG, VZ and XOM are as follows:
+- The histogram for the test MSE and the threshold value obtained by the train MSE for CVX, INTC and MRK are depicted below.
+<img src="https://user-images.githubusercontent.com/57218700/210923896-b4f5d376-c311-4e7c-9d1d-b7be9f0a4b4f.png?raw=True" width="70%">  
+<img src="https://user-images.githubusercontent.com/57218700/210923900-c6b54287-8036-4277-aa1d-85505d669f4f.png?raw=True" width="70%">  
+<img src="https://user-images.githubusercontent.com/57218700/210923901-23ca18cd-42e9-4e2f-a985-266682f9d657.png?raw=True" width="70%">  
+- Anomaly points and closing prices for CVX, INTC and MRK are as follows:
+<img src="https://user-images.githubusercontent.com/57218700/210923408-de0ae600-dcd8-47bc-a264-df84cd9fd457.png?raw=True" width="70%">  
+<img src="https://user-images.githubusercontent.com/57218700/210923413-3d84e50d-e34d-4e96-afeb-764c431e11b1.png?raw=True" width="70%">  
+<img src="https://user-images.githubusercontent.com/57218700/210923416-982cf65b-244b-4a0c-a2b6-4cbd643ccebc.png?raw=True" width="70%">  
 
-![ano_CVX](https://user-images.githubusercontent.com/57218700/210923408-de0ae600-dcd8-47bc-a264-df84cd9fd457.png)
-![ano_INTC](https://user-images.githubusercontent.com/57218700/210923413-3d84e50d-e34d-4e96-afeb-764c431e11b1.png)
-![ano_MRK](https://user-images.githubusercontent.com/57218700/210923416-982cf65b-244b-4a0c-a2b6-4cbd643ccebc.png)
+
+
