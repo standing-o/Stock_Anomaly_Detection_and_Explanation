@@ -1,5 +1,5 @@
 # Stock Anomaly Detection and Explanation
-- Repository for my master thesis (Applied Mathematics and Analysis)
+- Repository for my master thesis
 - In this paper, we introduce the anomaly detection using deep learning models and the explanation with MSTs in the US stock market. And we describe the mathematical formulation for the RNN/LSTM.
 - Jul. 1, 2022 ~ Jan. 6, 2023
 
