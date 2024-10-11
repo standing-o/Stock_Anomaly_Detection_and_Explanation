@@ -11,6 +11,10 @@
 미국 주식시장 분석을 위한 딥러닝 접근법과 상관관계 네트워크를 이용한 해석   
 > **Abstract** Neural networks are artificial intelligence algorithms that excel at pattern recognition tasks and have been widely used to handle time series data. In particular, the anomaly detection of time series plays an important role in the financial field. Most previous efforts related to time series anomaly detection have been aimed at improving the performance of model. But these days, some studies in the financial field emphasize the need to explain the AI models. In this paper, we detect anomalous behaviors on US stock market using Long short term memory (LSTM) algorithms based on neural networks. And, we propose a method to increase the explanatory power and confidence of deep learning by representing the predictive results on minimum spanning trees (MSTs). We show that this approach gives insight into anomaly pattern, which is compared to the past dynamics in stock market. And we explain it in relation to Covid-19 pandemic.
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 ## Dataset
 - Closing prices of DOW-30 (except DOW stock) retrieved using the Yahoo Finance API for the period between 2008-06-02 and 2021-01-29.
 - The return is calculated separately for each stock, and the LSTM learning is also performed separately. 
@@ -18,6 +22,10 @@
 <img src="https://user-images.githubusercontent.com/57218700/210920954-ef1fdb22-31fd-4078-a683-c58e17870d85.png?raw=True" width="40%">   
 <img src="https://user-images.githubusercontent.com/57218700/210920554-40a2e4a9-1fb9-48f5-bd7f-28916d43eee9.png?raw=True" width="40%"> <br>
 </div>
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ## Anomaly Detection Using LSTMs | [Code](https://github.com/standing-o/Stock_Anomaly_Detection_and_Explanation/blob/master/main.ipynb)
 - We use the LSTM architecture with 64 nodes following ReLU activation function and a neural network with 1-layer (Dense layer) with a node.
@@ -37,6 +45,10 @@
 <img src="https://user-images.githubusercontent.com/57218700/210923416-982cf65b-244b-4a0c-a2b6-4cbd643ccebc.png?raw=True" width="45%">
 <img src="https://user-images.githubusercontent.com/57218700/210924207-786f1b5c-b69a-4484-8803-a902bdb15312.png?raw=True" width="45%"> <br>
 </div>
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ## MST representation | [Code](https://github.com/standing-o/Stock_Anomaly_Detection_and_Explanation/blob/master/max_times_vis.R)
 - We generate MSTs using the daily return value of the closing price for the last 272 days. We divide 272 days into four sections and mark the number of anomaly points in each section in color on each node of MSTs. The closer to the orange, the more the number is.
